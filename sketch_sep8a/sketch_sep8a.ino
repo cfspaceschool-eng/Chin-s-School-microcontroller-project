@@ -7,7 +7,7 @@ GO();//button switch>D@ >GND
 
 void loop() 
 {
-FLR(100,); //wait bro what the fuck is this command actually i should go ask my teacher for it😂 ok teacher tell me it's speed pass L / R
+FLR(100,100); //wait bro what the fuck is this command actually i should go ask my teacher for it😂 ok teacher tell me it's speed pass L / R
 delay(2000);
 STOP(); delay(5000);
 TL(100); delay(2000); STOP(); delay(5000);
