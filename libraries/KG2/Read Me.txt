@@ -1,0 +1,15 @@
+1>>> SET_ROBOT();
+******Use Motor and Servo Function
+MD(100,100);  delay(1000); STOP();
+MB(100,100);  delay(1000); STOP();
+ML(100);  delay(1000); STOP();
+MR(100);  delay(1000); STOP();
+SV(1,0);  delay(1000); SV(1,-1);
+SV(2,0);  delay(1000); SV(2,-1); 
+
+*******Read OLED
+OLED.setTextSize(2);
+OLED.setCursor(0, 0);
+OLED.print(digitalRead(A0));
+OLED.display();
+OLED.clearDisplay();

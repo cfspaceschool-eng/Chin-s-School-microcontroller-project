@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For ROBOT_KRUGOLF
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+KG2	KEYWORD1
+GO	        KEYWORD1
+STOP			KEYWORD1
+OK			KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+MD				KEYWORD2
+MB				KEYWORD2
+ML				KEYWORD2
+MR				KEYWORD2
+SV				KEYWORD2
+READ_SENSOR			KEYWORD2
+READ_POT			KEYWORD2
+POT_SV1			KEYWORD2
+READ_BUTTON			KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
